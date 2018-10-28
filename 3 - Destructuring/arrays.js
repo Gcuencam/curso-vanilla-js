@@ -37,8 +37,8 @@ function spam(name, surname, prefix, phone, mail) {
 	const data = blackDataMOCKAPI();
 	for (let i=0; i<data.length; i+=1) {
 		let[name, surname, , , prefix="+34", phone, mail] = data[i];
-  		console.log(`${name}, ${surname}, ${prefix}, ${phone}, ${mail}`);
-  	}
+		console.log(`${name}, ${surname}, ${prefix}, ${phone}, ${mail}`);
+	}
 };
 
 spam();
@@ -54,10 +54,10 @@ function spam(name, surname, prefix, phone, mail) {
 	var data = blackDataMOCKAPI();
 	for (var i=0; i<data.length; i+=1) {
 		var name    = data[i][0],                                  // cuando veamos que se repite el patrón
-			surname = data[i][1],                                  // data[i][j] varias veces, es muy probable
-			prefix  = data[i][4]==undefined ? '+34' : data[i][4],  // que podamos solucionarlo con Destructuring
-			phone   = data[i][5],
-			mail    = data[i][6];
-  		console.log(name+', '+surname+', '+prefix+', '+phone+', '+mail);
-  	}
+	      surname = data[i][1],                                  // data[i][j] varias veces, es muy probable
+        prefix  = data[i][4]==undefined ? '+34' : data[i][4],  // que podamos solucionarlo con Destructuring
+		    phone   = data[i][5],
+		    mail    = data[i][6];
+		console.log(name+', '+surname+', '+prefix+', '+phone+', '+mail);
+	}
 };
