@@ -1,4 +1,4 @@
-# Condicionales
+# Colecciones
 
 >Lo primero que vamos a ver en este tema es qué diferencias hay entre las estructuras de datos de tipo Object, Array, Map, y Set. Todas estas estructuras son colecciones, llamamos colecciones a las estructuras de datos que contienen un conjunto de datos que tienen una relación entre sí.
 
