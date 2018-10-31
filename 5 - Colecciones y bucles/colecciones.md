@@ -1,4 +1,4 @@
-# Condicionales
+# Colecciones
 
 >Lo primero que vamos a ver en este tema es qué diferencias hay entre las estructuras de datos de tipo Object, Array, Map, y Set. Todas estas estructuras son colecciones, llamamos colecciones a las estructuras de datos que contienen un conjunto de datos que tienen una relación entre sí.
 
@@ -17,7 +17,7 @@ let teamO = {
 
 >En este ejemplo vemos como tanto el array como el objeto nos permite meter datos de distinto tipo, por un lado tenemos los nombres de los jugadores y al final tenemos el número de jugadores, por lo que estamos metiendo strings y numbers. 
 
->La principal diferencia, viéndolo desde el punto de vista de las colecciones, es que los arrays solo nos permiten guardar valores únicos, en cambio los objetos nos permiten guardar valores de clave valor, por lo que podemos guardar más información, en este caso aprovechamos la clave para guardar el dorsal del jugador.
+>La principal diferencia, viéndolo desde el punto de vista de las colecciones, es que los arrays solo nos permiten guardar valores únicos, en cambio los objetos nos permiten guardar conjuntos de clave valor, por lo que podemos guardar más información, en este caso aprovechamos la clave para guardar el dorsal del jugador.
 
 ### Set y Map.
 
