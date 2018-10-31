@@ -6,7 +6,7 @@
 >Vamos a empezar por el bucle for, este bucle ejecuta un bloque de código hasta que la condición que evalúa es falsa. Está compuesto por tres expresiones, la primera qué es la variable que inicializa el bucle, la segunda que es la condición a evaluar y la tercera que es el incremento de la variable inicial.
 
 ```javascript
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i+=1) {
   console.log(i);
 }
 ```
