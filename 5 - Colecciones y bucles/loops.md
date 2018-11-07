@@ -145,6 +145,6 @@ La clase equipo deberá estar compuesta por:
 >
 >La clase Plantilla debe tener un método para imprimir los jugadores del banquillo, devolverá un error si no hay suficientes jugadores.
 >
->La clase Plantilla debe tener un método para imprimir todos los jugadores del equipo, antes de imprimir se debe de hacer una comprobación de que no haya ningún jugador titular en el banquillo y viceversa.
+>La clase Equipo debe tener un método para imprimir todos los jugadores del equipo, antes de imprimir se debe de hacer una comprobación de que no haya ningún jugador titular en el banquillo y viceversa.
 >
 >* Todas las impresiones por consola deben devolver tan sólo el nombre y el apellido.
