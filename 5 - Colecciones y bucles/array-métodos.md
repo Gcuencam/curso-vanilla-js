@@ -1,10 +1,10 @@
 # Arrays - Métodos.
 
-Hoy vamos a ver algunos métodos importantes, asociados al objeto Array, que nos permiten iterar y filtrar arrays, entre otras cosas.
+>Hoy vamos a ver algunos métodos importantes, asociados al objeto Array, que nos permiten iterar y filtrar arrays, entre otras cosas.
 
 ## ForEach
 
-Nos devuelve en cada iteración el elemento del array:
+>Nos devuelve en cada iteración el elemento del array:
 
 ```javascript
 const arr = ['a', 'b', 'c'];
@@ -21,7 +21,7 @@ arr.forEach((element) => {
 
 ## Map
 
-Permite generar un nuevo array, modificado a través una función, callback. En cada iteración del map, el callback recibirá el elemento del array y le aplicará la transformación definida en el callback.
+>Permite generar un nuevo array, modificado a través una función, callback. En cada iteración del map, el callback recibirá el elemento del array y le aplicará la transformación definida en el callback.
 
 ```javascript
 const arr = [1, 4, 9, 16];
@@ -34,7 +34,7 @@ console.log(mapped);
 
 ## Filter
 
-Permite generar un nuevo array con los elementos que pasan el filtro definido en el callback.
+>Permite generar un nuevo array con los elementos que pasan el filtro definido en el callback.
 
 ```javascript
 const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
@@ -49,7 +49,7 @@ console.log(result);
 
 ## Reduce
 
-Nos permite trabajar con los elementos de un array de forma acumulativa. Para ello debemos definir un reducer, que podrá recibir tres parámetros: el acumulador, el valor actual, el índice actual y el array.
+>Nos permite trabajar con los elementos de un array de forma acumulativa. Para ello debemos definir un reducer, que podrá recibir tres parámetros: el acumulador, el valor actual, el índice actual y el array.
 
 ```javascript
 const arr = [1, 2, 3, 4];
