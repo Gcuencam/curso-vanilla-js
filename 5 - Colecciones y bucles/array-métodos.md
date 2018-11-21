@@ -62,7 +62,7 @@ console.log(arr.reduce(reducer));
 
 ### Ejercicios
 
-1 - En el ejercicio de la plantilla de baloncesto, hacer un método que te devuelva los jugadores mayores de 30 años. Se deberá generar antes un arry con todos los jugadores tanto del quintento inicial como del banquillo.
+1 - En el ejercicio de la plantilla de baloncesto, hacer un método que te devuelva los jugadores mayores de 30 años. Se deberá generar antes un array con todos los jugadores tanto del quintento inicial como del banquillo.
 
-2 - En el ejercicio de la plantilla de baloncesto, hacer un método que te devuelva la media de edad de toda la plantilla. Se deberá generar antes un arry con todos los jugadores tanto del quintento inicial como del banquillo.
+2 - En el ejercicio de la plantilla de baloncesto, hacer un método que te devuelva la media de edad de toda la plantilla. Se deberá generar antes un array con todos los jugadores tanto del quintento inicial como del banquillo.
 
