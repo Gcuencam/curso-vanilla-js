@@ -92,6 +92,50 @@ const allTeam = [...headlines, ...alternates];
 console.log(allTeam); // (7) ["Alfredo", "Helena", "Sarah", "Eva", "Gabri", "Aitor", "Carlos"]
 ```
 
+## "Spread Operator" en objetos.
+
+> El _spread operator_ en objetos funciona de manera muy similar a como funciona con arrays. Los dos principales usos que tiene son el de copiar objetos y el de heredar propiedades de un objeto a otro. 
+
+> Veamos como sería hacer la copia de un objeto: 
+
+```javascript
+const cat = { age: 4 };
+const kitten = cat;
+kitten.age = 1;
+
+console.log(kitten.age); // 1
+console.log(cat.age); // 1 <-- problem!
+```
+
+> Esto sucede porque estamos haciendo una copia por referencia y no por valor, por lo que _cat_ y _kitten_ comparten la misma referencia en memoria.
+>
+> Usando el spread operator podemos crear un objeto nuevo copiando las propiedades: 
+
+```javascript
+const cat = { age: 4 };
+const kitten = { ...cat }; // <-- changed
+kitten.age = 1;
+
+console.log(kitten.age); // 1
+console.log(cat.age); // 4 <-- fixed!
+```
+
+> Otro usuo habitual, como hemos dicho anteriormente es la de simular herencia entre objetos literales, veamos un ejemplo: 
+
+```javascript
+const animal = { legs: 4 };
+const cat = {
+    ...animal,
+    sound: "meow"
+};
+const dog = {
+    ...animal,
+    sound: "woof"
+};
+console.log(cat); // { legs: 4, sound: "meow" }
+console.log(dog); // { legs: 4, sound: "woof" }
+```
+
 ### Ejercicios.
 
 > 1 - Supongamos que tenemos que desarrollar un programa para una discográfica. La dicográfica se llamará "Somy Music". 
