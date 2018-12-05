@@ -82,4 +82,13 @@ Car.getDescription();
 // Esto es un coche.
 ```
 
-## Get y Set. 
+
+### Ejercicios.
+
+### Ejercicios.
+
+> 1 - Siguiendo el ejercicio del gimnasio realizar las siguientes clases: 
+> - Sala. Área, tieneVentanas (indica si la sala tiene ventanas o no), materiales ["esterillas"]. Deberá tener un método que devuelva los materiales de la sala. 
+> - SalaPilates, similar a sala pero su lista de materiales adicional es ["balón medicinal", "espalderas"].
+> - SalaMáquinas, similar a sala pero su lista de materiales adicional es ["máquina abdominales", "maquina sentadillas"].
+> Todas las salas deben tener un método que devuelva el material concreto de esa sala y el material por defect (esterillas).
