@@ -1,0 +1,9 @@
+DEBERES:
+
+Hacer 3 clases:
+
+1. Profesor que extiende de persona. Además de los atributos de persona, tiene cuántas horas trabajará al día.
+
+2. Clase, que tienecomo atributo profesor(Profesro) yuna sala (Room)
+
+3. Horario que recibirá 3 parámetros: apertura, cierre e intervalo (cuánto dura cada clase) --> Dentro deberá tener un atributo (un Mapa) que tenga como clave el horario de la clase y el valor será el objeto Clase.

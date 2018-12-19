@@ -12,6 +12,13 @@ function rest(a, b) {
 
 //BIEN
 function rest(a, b) {
+	if (a >= b) { 
+    	return a -= b; //Cuando una función llega a un return, acaba y no sigue el flujo
+  	} 
+  	return b -= a;
+}
+
+function rest(a, b) {
 	return a >= b ?  a - b : b - a;
 }
 
